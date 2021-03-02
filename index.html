@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Intro component with sign-up form</title>
+</head>
+<body>
+
+    <main class="main">
+
+        <section class="learn-coding">
+            <h2 class="learn-coding-title">Learn to code by watching others</h2>
+            <p class="learn-coding-text">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable.</p>
+        </section>
+
+        <section class="subscribe">
+
+            <div class="subscribe-free-trial">
+                <p class="subscribe-free-trial-text"><span>Try it free 7 days</span> 
+                    then $20/mo. thereafter
+                </p>
+            </div>
+
+            <div class="subscribe-form">
+                <form action="" id="form">
+                    <div class="subscribe-form-input-group">
+                        <input type="text" placeholder="Firts Name" id="firstname">
+                        <p class="subscribe-form-input-group-alert" id="firstname_alert">
+                           First Name cannot be empty
+                        </p>
+                    </div>
+
+                    <div class="subscribe-form-input-group">
+                        <input type="text" placeholder="Last Name" id="lastname">
+                        <p class="subscribe-form-input-group-alert"  id="lastname_alert">
+                            Last Name cannot be empty
+                         </p>
+                    </div>
+
+                    <div class="subscribe-form-input-group">
+                        <input type="text" placeholder="Email Address" id="email">
+                        <p class="subscribe-form-input-group-alert"  id="email_alert">
+                            Looks like that is not an Email
+                         </p>
+                    </div>
+
+                    <div class="subscribe-form-input-group">
+                        <input type="text" placeholder="Password" id="password">
+                        <p class="subscribe-form-input-group-alert" id="password_alert">
+                            Password cannot be empty
+                         </p>
+                    </div>
+                    
+                   
+                    <button id="button" type="submit">Claim your free trial</button>
+                    <p class="subscribe-form-text">
+                        By clicking the button, you are agreeing to our <span>Terms and Services</span>
+                    </p>
+                </form>
+            </div>
+
+        </section>
+        
+    </main>
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
